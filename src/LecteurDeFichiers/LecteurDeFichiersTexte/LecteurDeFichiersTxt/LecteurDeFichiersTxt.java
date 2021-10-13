@@ -1,4 +1,4 @@
-package LecteurDeFichiers.LecteurDeFichiersTxt;
+package LecteurDeFichiers.LecteurDeFichiersTexte.LecteurDeFichiersTxt;
 
 import LecteurDeFichiers.LecteurdeFichiers;
 
@@ -9,9 +9,7 @@ import java.util.Objects;
 public class LecteurDeFichiersTxt extends LecteurdeFichiers {
     protected BufferedReader bufferedReader;
 
-    public LecteurDeFichiersTxt(File file) {
-        super(file);
-    }
+    public LecteurDeFichiersTxt(File file) { super(file); }
 
     public boolean isCorrectFileExtension() {
         String fileExtension = super.file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf('.') + 1);

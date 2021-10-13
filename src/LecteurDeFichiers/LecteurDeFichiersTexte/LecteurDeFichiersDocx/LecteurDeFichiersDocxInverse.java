@@ -1,4 +1,4 @@
-package LecteurDeFichiers.LecteurDeFichiersDocx;
+package LecteurDeFichiers.LecteurDeFichiersTexte.LecteurDeFichiersDocx;
 
 import java.io.File;
 

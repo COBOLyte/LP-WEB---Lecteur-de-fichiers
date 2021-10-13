@@ -1,4 +1,6 @@
-package LecteurDeFichiers.LecteurDeFichiersTxt;
+package LecteurDeFichiers.LecteurDeFichiersTexte.LecteurDeFichiersTxt;
+
+import LecteurDeFichiers.LecteurDeFichiersTexte.LecteurDeFichiersTxt.LecteurDeFichiersTxt;
 
 import java.io.File;
 import java.io.IOException;
